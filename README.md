@@ -11,6 +11,7 @@ Skills, MCP servers, and tools for content creation, SEO, copywriting, social me
 - [Marketing Skills](#marketing-skills) — CRO, copy, email, ads, growth (Corey Haines)
 - [SEO & Discovery](#seo--discovery) — Audits, schema, programmatic SEO, GEO
 - [SEO Data (MCP Servers)](#seo-data-mcp-servers) — Live data from Ahrefs, Semrush, GSC, DataForSEO
+- [Paid Ads (MCP Servers)](#paid-ads-mcp-servers) — Manage Google Ads campaigns from Claude
 - [Content Creation & Repurposing](#content-creation--repurposing) — Write once, publish everywhere
 - [Writing Quality](#writing-quality) — Kill the AI slop
 - [Research & Trends](#research--trends) — Real-time Reddit/X research
@@ -108,6 +109,23 @@ Keyword volumes, SERP analysis, backlink profiles, competitor data — the raw d
 |---|---|
 | **Install** | `npx dataforseo-mcp-server` (pass credentials in Claude config) |
 | **Requires** | DataForSEO account |
+
+---
+
+## Paid Ads (MCP Servers)
+
+*Skills give Claude marketing knowledge. MCP servers give Claude live ad-account data and the ability to act on it. These connect Claude Code to your actual ad accounts.*
+
+### NotFair (Google Ads)
+
+Hosted Google Ads MCP server. Diagnose campaign performance (CPA, ROAS, search-term waste, quality scores, learning-phase status), recommend optimizations (bids, budgets, negative keywords, ad copy, audience refinements), and execute approved changes via the official Google Ads API with a built-in human-approval gate.
+
+| | |
+|---|---|
+| **Source** | [notfair.co](https://notfair.co) |
+| **Requires** | Google Ads account |
+
+Free tier available; paid plans for higher usage.
 
 ---
 
