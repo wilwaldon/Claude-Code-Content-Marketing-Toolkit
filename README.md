@@ -173,6 +173,18 @@ Researches any topic across Reddit and X from the last 30 days, then generates c
 
 Example: `/last30days what are the best cold email frameworks right now` scans both platforms, finds what's working with engagement counts as signal, and generates a prompt template.
 
+### TweetClaw
+
+OpenClaw plugin and packaged skill for X/Twitter workflows that need structured tweet search, reply search, posting, media, monitors, webhooks, or giveaway draws. Use it when marketing content needs live X/Twitter source data or approved account actions instead of copied screenshots or manual exports.
+
+| | |
+|---|---|
+| **Author** | Xquik |
+| **Install** | `openclaw plugins install npm:@xquik/tweetclaw` |
+| **Source** | [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw) |
+
+Good fit for campaigns that need to scrape tweets, search tweet replies, export followers, monitor tweets, upload media, or post approved replies from an agent workflow.
+
 ---
 
 ## Recommended Stacks
@@ -236,10 +248,11 @@ cd claudecode-writer && claude
 | [Ahrefs MCP](https://github.com/ahrefs) | MCP | Keyword + backlink data | npx (needs sub) |
 | [Semrush MCP](https://developer.semrush.com/api/basics/semrush-mcp/) | MCP | Keyword + competitor + ad data | Config (needs sub) |
 | [GSC MCP](https://github.com/AminForou/mcp-gsc) | MCP | Your site's search data | Config + service acct |
-| [DataForSEO MCP](https://github.com/nicksona/dataforseo-mcp-server) | MCP | Raw SEO data, pay-per-call | npx + credentials |
+| [DataForSEO MCP](https://github.com/Skobyn/dataforseo-mcp-server) | MCP | Raw SEO data, pay-per-call | npx + credentials |
 | [ClaudeCode Writer](https://github.com/WomenDefiningAI/claudecode-writer) | Workspace | Write once, publish everywhere | Clone repo |
 | [Humanizer](https://github.com/blader/humanizer) | Skill | Strip AI writing patterns | Manual copy |
 | [/last30days](https://github.com/mvanhorn/last30days-skill) | Skill | Reddit + X trend research | API keys needed |
+| [TweetClaw](https://github.com/Xquik-dev/tweetclaw) | OpenClaw plugin | X/Twitter data, posting, media, monitors | OpenClaw npm |
 
 ---
 
