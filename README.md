@@ -248,7 +248,7 @@ cd claudecode-writer && claude
 | [Ahrefs MCP](https://github.com/ahrefs) | MCP | Keyword + backlink data | npx (needs sub) |
 | [Semrush MCP](https://developer.semrush.com/api/basics/semrush-mcp/) | MCP | Keyword + competitor + ad data | Config (needs sub) |
 | [GSC MCP](https://github.com/AminForou/mcp-gsc) | MCP | Your site's search data | Config + service acct |
-| [DataForSEO MCP](https://github.com/Skobyn/dataforseo-mcp-server) | MCP | Raw SEO data, pay-per-call | npx + credentials |
+| [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | MCP | Raw SEO data, pay-per-call | npx + credentials |
 | [ClaudeCode Writer](https://github.com/WomenDefiningAI/claudecode-writer) | Workspace | Write once, publish everywhere | Clone repo |
 | [Humanizer](https://github.com/blader/humanizer) | Skill | Strip AI writing patterns | Manual copy |
 | [/last30days](https://github.com/mvanhorn/last30days-skill) | Skill | Reddit + X trend research | API keys needed |
