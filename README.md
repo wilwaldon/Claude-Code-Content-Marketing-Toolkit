@@ -173,6 +173,16 @@ Researches any topic across Reddit and X from the last 30 days, then generates c
 
 Example: `/last30days what are the best cold email frameworks right now` scans both platforms, finds what's working with engagement counts as signal, and generates a prompt template.
 
+### Xquik MCP Server
+
+Remote MCP server for X research workflows. Use it for live X search, profile timelines, follower exports, media lookup, monitoring data, and webhooks from Claude Code or other MCP clients.
+
+| | |
+|---|---|
+| **Docs** | [docs.xquik.com/mcp/overview](https://docs.xquik.com/mcp/overview) |
+| **Source** | [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) |
+| **Requires** | Xquik API key or OAuth connector |
+
 ---
 
 ## Recommended Stacks
@@ -240,6 +250,7 @@ cd claudecode-writer && claude
 | [ClaudeCode Writer](https://github.com/WomenDefiningAI/claudecode-writer) | Workspace | Write once, publish everywhere | Clone repo |
 | [Humanizer](https://github.com/blader/humanizer) | Skill | Strip AI writing patterns | Manual copy |
 | [/last30days](https://github.com/mvanhorn/last30days-skill) | Skill | Reddit + X trend research | API keys needed |
+| [Xquik MCP](https://docs.xquik.com/mcp/overview) | MCP | Live X research data | API key or OAuth |
 
 ---
 
