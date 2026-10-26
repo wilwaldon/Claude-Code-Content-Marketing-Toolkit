@@ -173,6 +173,19 @@ Researches any topic across Reddit and X from the last 30 days, then generates c
 
 Example: `/last30days what are the best cold email frameworks right now` scans both platforms, finds what's working with engagement counts as signal, and generates a prompt template.
 
+### Firecrawl (Official Plugin)
+
+Web research for content and SEO work, with cited sources. Search the web, developer docs, US government publications, and scientific papers, read supplied web pages as Markdown, and look up structured data from Alexandria providers. The plugin also ships SEO audit, lead discovery, business contact research, brand identity, and website design workflows, and connects through Firecrawl's hosted MCP server.
+
+| | |
+|---|---|
+| **Author** | firecrawl |
+| **Install** | `/plugin marketplace add firecrawl/firecrawl-claude-plugin` then `/plugin install firecrawl@firecrawl` |
+| **Source** | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
+| **Requires** | Firecrawl account ([firecrawl.dev](https://www.firecrawl.dev/?utm_source=claude-code-content-marketing-toolkit&utm_medium=integration)), connected with `/mcp` |
+
+Example: ask for an SEO audit of a page or a cited multi-source research summary and the skills pick the right tools. Commands include `/firecrawl:search`, `/firecrawl:scrape`, and `/firecrawl:agent`.
+
 ---
 
 ## Recommended Stacks
@@ -240,6 +253,7 @@ cd claudecode-writer && claude
 | [ClaudeCode Writer](https://github.com/WomenDefiningAI/claudecode-writer) | Workspace | Write once, publish everywhere | Clone repo |
 | [Humanizer](https://github.com/blader/humanizer) | Skill | Strip AI writing patterns | Manual copy |
 | [/last30days](https://github.com/mvanhorn/last30days-skill) | Skill | Reddit + X trend research | API keys needed |
+| [Firecrawl](https://github.com/firecrawl/firecrawl-claude-plugin) | Plugin | Web research, SEO audits, lead and contact research | Plugin install + account |
 
 ---
 
